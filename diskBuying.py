@@ -3,8 +3,8 @@ import pandas as pd
 import random
 
 
-user_data = pd.read_csv('/home/petros/Downloads/user_money_rates.csv', header=None)
-disc_cost = pd.read_csv('/home/petros/Downloads/album_price.csv', header=None)
+user_data = pd.read_csv('/home/ilias/Downloads/user_money_rates.csv', header=None)
+disc_cost = pd.read_csv('/home/ilias/Downloads/album_price.csv', header=None)
 
 # Define the number of users and discs
 num_users = user_data.shape[0]

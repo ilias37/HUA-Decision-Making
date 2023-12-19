@@ -5,7 +5,7 @@ from statsmodels.tsa.arima.model import ARIMA
 from math import sqrt
 from sklearn.metrics import mean_squared_error
 
-series=pd.read_csv('/home/petros/Downloads/File_series.csv', header=0, parse_dates=[0], index_col=0)
+series=pd.read_csv('/home/ilias/Downloads/File_series.csv', header=0, parse_dates=[0], index_col=0)
 
 print(series.index)
 print(series)
